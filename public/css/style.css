@@ -1,0 +1,15 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.animate-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,5 +1,4 @@
 <style>
-    /* Custom color scheme */
     .text-primary {
         color: #0083a5;
     }
@@ -118,40 +117,104 @@
     .footer-delay-4 {
         animation-delay: 0.4s;
     }
+
+    /* Mobile-specific styles */
+    @media (max-width: 768px) {
+        .footer-section {
+            margin-bottom: 2rem;
+        }
+
+        .footer-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .newsletter-input {
+            width: 100%;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subscribe-btn {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+
+        .flex.flex-col.md\:flex-row {
+            text-align: center;
+        }
+
+        .payment-methods {
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .social-icons {
+            justify-content: center;
+        }
+
+        .footer-links-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+    }
+
+    /* Small mobile devices */
+    @media (max-width: 480px) {
+        .container {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .footer-gradient {
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.25rem;
+        }
+
+        .social-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
 </style>
+
 <!-- Professional Footer -->
-<footer class="footer-gradient text-white pt-16 pb-8 w-screen">
+<footer class="footer-gradient text-white pt-16 pb-8">
     <div class="container mx-auto px-4">
         <!-- Main Footer Content -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 footer-links-grid">
             <!-- Company Info -->
             <div class="footer-section animate-footer footer-delay-1">
                 <div class="flex items-center mb-6">
-                    <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center mr-3">
-                        <i class="fas fa-code text-primary text-xl"></i>
+                    <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center mr-3 text-primary">
+{{--                        <i class="fas fa-code text-primary text-xl"></i>--}}
+                        MD
                     </div>
-                    <span class="text-2xl font-bold">Portfolio</span>
+                    <span class="text-2xl font-bold">Muzzamal Dev</span>
                 </div>
                 <p class="text-gray-300 mb-6 leading-relaxed">
                     Full stack web developer creating digital experiences that make a difference.
                     Specializing in modern web technologies and innovative solutions.
                 </p>
-                <div class="flex space-x-4">
+                <div class="flex space-x-4 social-icons">
                     <a href="#"
                        class="social-icon w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center text-white hover:bg-primary">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter text-primary"></i>
                     </a>
                     <a href="#"
                        class="social-icon w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center text-white hover:bg-primary">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in text-primary"></i>
                     </a>
                     <a href="#"
                        class="social-icon w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center text-white hover:bg-primary">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github text-primary"></i>
                     </a>
                     <a href="#"
                        class="social-icon w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center text-white hover:bg-primary">
-                        <i class="fab fa-dribbble"></i>
+                        <i class="fab fa-dribbble text-primary"></i>
                     </a>
                 </div>
             </div>
@@ -257,14 +320,17 @@
                 <p class="text-gray-300 mb-4">Subscribe to my newsletter for the latest updates and insights.</p>
 
                 <div class="mb-6">
-                    <div class="flex">
-                        <input type="email" placeholder="Your email address"
-                               class="newsletter-input flex-grow px-4 py-3 rounded-l-lg focus:outline-none text-gray-800">
-                        <button class="subscribe-btn px-6 py-3 rounded-r-lg font-semibold text-white">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            Subscribe
-                        </button>
-                    </div>
+                    <form class="newsletter-form">
+                        <div class="flex flex-col md:flex-row">
+                            <input type="email" placeholder="Your email address"
+                                   class="newsletter-input flex-grow px-4 py-3 md:rounded-l-lg rounded-lg md:rounded-r-none focus:outline-none text-gray-800">
+                            <button
+                                class="subscribe-btn px-6 py-3 md:rounded-r-lg rounded-lg md:rounded-l-none font-semibold text-white mt-2 md:mt-0">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Subscribe
+                            </button>
+                        </div>
+                    </form>
                 </div>
 
                 <div class="border-t border-gray-700 pt-6">
@@ -272,15 +338,15 @@
                     <div class="space-y-2">
                         <div class="flex items-center text-gray-300">
                             <i class="fas fa-envelope text-primary mr-3"></i>
-                            <span>hello@portfolio.dev</span>
+                            <span>muzzamaldev@gmail.com</span>
                         </div>
                         <div class="flex items-center text-gray-300">
                             <i class="fas fa-phone text-primary mr-3"></i>
-                            <span>+1 (555) 123-4567</span>
+                            <span>+923038570966</span>
                         </div>
                         <div class="flex items-center text-gray-300">
                             <i class="fas fa-map-marker-alt text-primary mr-3"></i>
-                            <span>New York, NY 10001</span>
+                            <span>Pakistan</span>
                         </div>
                     </div>
                 </div>
@@ -298,19 +364,19 @@
                     </p>
                 </div>
 
-                <div class="flex items-center space-x-6">
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
                     <!-- Payment Methods -->
-                    <div class="flex items-center space-x-2 text-gray-400">
-                        <span class="text-sm mr-2">We accept:</span>
-                        <i class="fab fa-cc-visa text-lg"></i>
-                        <i class="fab fa-cc-mastercard text-lg"></i>
-                        <i class="fab fa-cc-paypal text-lg"></i>
-                        <i class="fab fa-cc-apple-pay text-lg"></i>
-                    </div>
+{{--                    <div class="flex items-center space-x-2 text-gray-400 payment-methods">--}}
+{{--                        <span class="text-sm mr-2">We accept:</span>--}}
+{{--                        <i class="fab fa-cc-visa text-lg"></i>--}}
+{{--                        <i class="fab fa-cc-mastercard text-lg"></i>--}}
+{{--                        <i class="fab fa-cc-paypal text-lg"></i>--}}
+{{--                        <i class="fab fa-cc-apple-pay text-lg"></i>--}}
+{{--                    </div>--}}
 
                     <!-- Back to Top Button -->
                     <button id="back-to-top"
-                            class="back-to-top bg-primary w-10 h-10 rounded-full flex items-center justify-center text-white">
+                            class="back-to-top bg-primary w-10 h-10 rounded-full flex items-center justify-center text-white opacity-0 transition-opacity duration-300">
                         <i class="fas fa-chevron-up"></i>
                     </button>
                 </div>
@@ -342,7 +408,7 @@
     });
 
     // Newsletter form submission
-    const newsletterForm = document.querySelector('.subscribe-btn').closest('.flex');
+    const newsletterForm = document.querySelector('.newsletter-form');
     const newsletterInput = document.querySelector('.newsletter-input');
 
     newsletterForm.addEventListener('submit', function (e) {

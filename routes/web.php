@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.landingPage');
+    return view('app');
 });
 Route::get("/home", function () {
     return view('layouts.app');

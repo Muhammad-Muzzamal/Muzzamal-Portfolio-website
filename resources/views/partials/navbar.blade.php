@@ -229,13 +229,12 @@
     <div class="container mx-auto px-4 py-3 flex justify-between items-center">
         <!-- Logo -->
         <a href="#" class="logo text-2xl font-bold text-primary flex items-center">
-            <i class="fas fa-code mr-2"></i>
-            Portfolio
+            Muzzamal Dev
         </a>
 
         <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-6">
-            <a href="#home" class="nav-link active">Home</a>
+            <a href="#home" class="nav-link">Home</a>
             <a href="#services" class="nav-link">Services</a>
             <a href="#portfolio" class="nav-link">Portfolio</a>
             <a href="#blog" class="nav-link">Blog</a>
@@ -249,14 +248,14 @@
             <!-- Search Bar -->
             <div id="search-bar" class="search-bar">
                 <input type="text" placeholder="Search..."
-                       class="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                    class="w-full px-3 py-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
             </div>
 
             <!-- Theme Toggle -->
-            {{--            <div id="theme-toggle" class="theme-toggle ml-2">--}}
-            {{--                <i class="fas fa-sun absolute left-1 top-1 text-yellow-500 text-xs"></i>--}}
-            {{--                <i class="fas fa-moon absolute right-1 top-1 text-gray-300 text-xs"></i>--}}
-            {{--            </div>--}}
+            {{-- <div id="theme-toggle" class="theme-toggle ml-2">--}}
+            {{-- <i class="fas fa-sun absolute left-1 top-1 text-yellow-500 text-xs"></i>--}}
+            {{-- <i class="fas fa-moon absolute right-1 top-1 text-gray-300 text-xs"></i>--}}
+            {{-- </div>--}}
 
             <!-- CTA Button -->
             <a href="#contact" class="btn-primary ml-2">
@@ -278,7 +277,7 @@
     <!-- Mobile Search Bar -->
     <div id="mobile-search-bar" class="md:hidden bg-white px-4 py-2 border-t border-gray-200 hidden">
         <input type="text" placeholder="Search..."
-               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
     </div>
 </nav>
 
@@ -302,39 +301,39 @@
         <!-- Mobile Menu Links -->
         <div class="flex flex-col space-y-2 flex-grow">
             <a href="#home"
-               class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+                class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
                 <i class="fas fa-home mr-3 text-primary"></i>
                 Home
             </a>
             <a href="#services"
-               class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+                class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
                 <i class="fas fa-cogs mr-3 text-primary"></i>
                 Services
             </a>
             <a href="#portfolio"
-               class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+                class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
                 <i class="fas fa-briefcase mr-3 text-primary"></i>
                 Portfolio
             </a>
             <a href="#blog"
-               class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+                class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
                 <i class="fas fa-blog mr-3 text-primary"></i>
                 Blog
             </a>
             <a href="#contact"
-               class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+                class="mobile-menu-item nav-link text-lg py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors flex items-center">
                 <i class="fas fa-envelope mr-3 text-primary"></i>
                 Contact
             </a>
 
             <!-- Mobile Theme Toggle -->
-            {{--            <div class="mobile-menu-item flex items-center justify-between py-3 px-4">--}}
-            {{--                <span class="text-lg">Dark Mode</span>--}}
-            {{--                <div id="mobile-theme-toggle" class="theme-toggle">--}}
-            {{--                    <i class="fas fa-sun absolute left-1 top-1 text-yellow-500 text-xs"></i>--}}
-            {{--                    <i class="fas fa-moon absolute right-1 top-1 text-gray-300 text-xs"></i>--}}
-            {{--                </div>--}}
-            {{--            </div>--}}
+            {{-- <div class="mobile-menu-item flex items-center justify-between py-3 px-4">--}}
+            {{-- <span class="text-lg">Dark Mode</span>--}}
+            {{-- <div id="mobile-theme-toggle" class="theme-toggle">--}}
+            {{-- <i class="fas fa-sun absolute left-1 top-1 text-yellow-500 text-xs"></i>--}}
+            {{-- <i class="fas fa-moon absolute right-1 top-1 text-gray-300 text-xs"></i>--}}
+            {{-- </div>--}}
+            {{-- </div>--}}
         </div>
 
         <!-- Additional Info for Mobile Menu -->
@@ -342,19 +341,19 @@
             <p class="text-secondary mb-4 font-medium">Get in touch:</p>
             <div class="flex space-x-3">
                 <a href="#"
-                   class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+                    class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <i class="fab fa-twitter"></i>
                 </a>
                 <a href="#"
-                   class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+                    class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href="#"
-                   class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+                    class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="#"
-                   class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
+                    class="social-icon w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white">
                     <i class="fab fa-dribbble"></i>
                 </a>
             </div>
@@ -384,7 +383,7 @@
     const menuIcon = document.querySelector('.menu-icon');
 
     // Open mobile menu
-    mobileMenuButton.addEventListener('click', function () {
+    mobileMenuButton.addEventListener('click', function() {
         mobileMenu.classList.add('active');
         mobileMenuOverlay.classList.add('active');
         menuIcon.classList.add('active');
@@ -392,7 +391,7 @@
     });
 
     // Close mobile menu with close button
-    closeMenuButton.addEventListener('click', function () {
+    closeMenuButton.addEventListener('click', function() {
         mobileMenu.classList.remove('active');
         mobileMenuOverlay.classList.remove('active');
         menuIcon.classList.remove('active');
@@ -400,7 +399,7 @@
     });
 
     // Close mobile menu when clicking on overlay
-    mobileMenuOverlay.addEventListener('click', function () {
+    mobileMenuOverlay.addEventListener('click', function() {
         mobileMenu.classList.remove('active');
         mobileMenuOverlay.classList.remove('active');
         menuIcon.classList.remove('active');
@@ -410,7 +409,7 @@
     // Close mobile menu when clicking on a menu link
     const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
     mobileMenuLinks.forEach(link => {
-        link.addEventListener('click', function () {
+        link.addEventListener('click', function() {
             mobileMenu.classList.remove('active');
             mobileMenuOverlay.classList.remove('active');
             menuIcon.classList.remove('active');
@@ -419,7 +418,7 @@
     });
 
     // Close mobile menu with Escape key
-    document.addEventListener('keydown', function (event) {
+    document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
             mobileMenu.classList.remove('active');
             mobileMenuOverlay.classList.remove('active');
@@ -429,7 +428,7 @@
     });
 
     // Navbar scroll effect
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
             navbar.classList.add('navbar-scrolled');
         } else {
@@ -438,22 +437,22 @@
     });
 
     // Search functionality
-    searchButton.addEventListener('click', function () {
+    searchButton.addEventListener('click', function() {
         searchBar.classList.toggle('active');
     });
 
-    searchButtonMobile.addEventListener('click', function () {
+    searchButtonMobile.addEventListener('click', function() {
         mobileSearchBar.classList.toggle('hidden');
     });
 
     // Theme toggle functionality
-    themeToggle.addEventListener('click', function () {
+    themeToggle.addEventListener('click', function() {
         this.classList.toggle('active');
         document.body.classList.toggle('dark-mode');
         // In a real implementation, you would toggle between light and dark themes
     });
 
-    mobileThemeToggle.addEventListener('click', function () {
+    mobileThemeToggle.addEventListener('click', function() {
         this.classList.toggle('active');
         document.body.classList.toggle('dark-mode');
         // In a real implementation, you would toggle between light and dark themes
@@ -463,7 +462,7 @@
     const navLinks = document.querySelectorAll('.nav-link');
 
     navLinks.forEach(link => {
-        link.addEventListener('click', function () {
+        link.addEventListener('click', function() {
             navLinks.forEach(l => l.classList.remove('active'));
             this.classList.add('active');
         });

@@ -455,7 +455,7 @@
                         </div>
                     </div>
                     <div class="experience-badge">
-                        3+ Years Experience
+                        2+ Years Experience
                     </div>
                 </div>
             </div>
@@ -463,7 +463,7 @@
             <!-- Text Content -->
             <div class="about-text">
                 <div class="about-description">
-                    <p>Hello! I'm <span class="highlight-text">John Doe</span>, a passionate full-stack developer with
+                    <p>Hello! I'm <span class="highlight-text">Muhammad Muzzamal</span>, a passionate full-stack developer with
                         over 3 years of experience creating digital solutions that make a difference.</p>
 
                     <p style="margin-top: 1rem;">I specialize in building responsive, user-friendly web applications

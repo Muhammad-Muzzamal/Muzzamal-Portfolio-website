@@ -478,7 +478,7 @@
         <div class="hero-text">
             <p class="intro-text">Hello, I'm</p>
             <h1 class="main-heading">
-                <span class="name-highlight">John Doe</span>
+                <span class="name-highlight">Muzzamal</span>
             </h1>
             <h2 class="sub-heading">Full Stack Web Developer</h2>
             <p class="description">
